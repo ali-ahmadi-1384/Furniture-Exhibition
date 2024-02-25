@@ -1,0 +1,520 @@
+<!-- This is my first sample of work in the area of ​​programming (site design), which was written without using any library in the fields of Front-End & Back-End. It has been tried to be the most complete example -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the furniture store">
+    <meta name="keywords" content="Furniture store, sofa, store">
+    <meta name="author" content="Ali Ahmadi">
+
+    <link rel="stylesheet" href="../src/style/public.css">
+    <link rel="stylesheet" href="../src/style/home.css">
+    <link rel="icon" type="image/x-icon" href="../src/ico/icon1.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <title>Furniture Exhibition</title>
+</head>
+<body>
+    <div class="preloader-container">
+        <div class="loader"></div>
+        <h1>loading...</h1>
+    </div>
+
+    <header>
+        <nav>
+            <div class="brand">
+                <span class="material-symbols-outlined">
+                    chair
+                </span>
+
+                <p id="brand-name">Name of brand</p>
+            </div>
+
+            <ul class="menu">
+                <li id="menu-li">menu
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </li>
+                <hr>
+                <div class="search-menu">
+                    <input type="text" id="search-input-menu" placeholder="Type to search..">
+
+                    <span class="material-symbols-outlined search-icon-menu">
+                        search
+                    </span>
+                </div>
+                <li>Home
+                    <span class="material-symbols-outlined home-icon">
+                        home
+                    </span>
+                </li>
+                <li><a href="../vendor/login.html" target="_blank">Login
+                    <span class="material-symbols-outlined login-icon">
+                        account_circle
+                    </span>
+                </a>
+                </li>
+                <li id="shop-li">
+                    <span class="material-symbols-outlined left-1">
+                        arrow_back_ios
+                    </span>
+                    Shop
+                    <span class="material-symbols-outlined shop-icon">
+                        shopping_bag
+                    </span>
+                </li>
+                <ul class="ul-1">
+                    <li>chair</li>
+                    <li>sofa</li>
+                    <li>bed</li>
+                    <li>table</li>
+                    <li>console</li>
+                </ul>
+                <li id="decoration-li">
+                    <span class="material-symbols-outlined left-2">
+                        arrow_back_ios
+                    </span>
+                    Decoration
+                    <span class="material-symbols-outlined chair-icon">
+                        chair
+                    </span>
+                </li>
+                <ul class="ul-2">
+                    <li id="house-li">
+                        <span class="material-symbols-outlined left-3">
+                            arrow_back_ios
+                        </span>
+                        house
+                    </li>
+                    <ul class="ul-3">
+                        <li>classic</li>
+                        <li>royal</li>
+                        <li>convenience</li>
+                    </ul>
+                    <li>office</li>
+                </ul>
+                <li>About
+                    <span class="material-symbols-outlined about-icon">
+                        language
+                    </span>
+                </li>
+                <li class="mode-toggle"><p>Dark Mode</p>
+                    <span class="material-symbols-outlined">
+                        routine
+                    </span>
+                </li>
+            </ul>
+
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Type to search..">
+
+                <span class="material-symbols-outlined search-icon">
+                    search
+                </span>
+            </div>
+
+            <div class="menu-btn-box">
+                <span class="material-symbols-outlined menu-btn">
+                    menu
+                </span>
+            </div>
+        </nav>
+
+        <div class="welcome">
+            <div class="welcome-text">
+                <p id="welcome"> <span>CLASSICK</span> </p> <hr> <p>DESIGNER SOFA <br> IN Furniture Exhibition</p>
+                <p id="discount">Get 15% Off On Order above $399</p>
+            </div>
+
+            <div class="welcome-img">
+                <div class="circle1">
+                    <img src="../src/img/home/pic-1.png" alt="circle-picture">
+                </div>
+
+                <div class="circle2">
+                    <img src="../src/img/home/pic-2.png" alt="circle-picture">
+                </div>
+
+                <div class="circle3">
+                    <img src="../src/img/home/pic-3.png" alt="circle-picture">
+                </div>
+            </div>
+        </div>
+
+        <ul class="products">
+            <li class="product">
+                <img src="../src/img/home/1.jpg" alt="product1">
+
+                <div class="content">
+                    <p>Classic chair</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/2.jpg" alt="product2">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/3.jpg" alt="product3">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/4.jpg" alt="product4">
+
+                <div class="content">
+                    <p>Classic chair</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/5.jpg" alt="product5">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/6.jpg" alt="product6">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/7.jpg" alt="product7">
+
+                <div class="content">
+                    <p>Classic chair</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/8.jpg" alt="product8">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+
+            <li class="product">
+                <img src="../src/img/home/9.jpg" alt="product9">
+
+                <div class="content">
+                    <p>Single sofa</p>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+            </li>
+        </ul>
+
+        <div class="swipers">
+            <div class="swiper active" id="0"></div>
+            <div class="swiper" id="1"></div>
+            <div class="swiper" id="2"></div>
+            <div class="swiper" id="3"></div>
+            <div class="swiper" id="4"></div>
+            <div class="swiper" id="5"></div>
+            <div class="swiper" id="6"></div>
+            <div class="swiper" id="7"></div>
+            <div class="swiper" id="8"></div>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-shop">
+            <span class="material-symbols-outlined">
+                chair
+            </span>
+            <span class="material-symbols-outlined">
+                bed
+            </span>
+            <span class="material-symbols-outlined">
+                event_seat
+            </span>
+            <span class="material-symbols-outlined">
+                deck
+            </span>
+            <span class="material-symbols-outlined">
+                table_bar
+            </span>
+        </div>
+
+        <div class="decors">
+            <div class="decor visible" id="0">
+                <div class="decor-img">
+                    <img src="../src/img/home/decor-1.jpg" alt="decor example">
+                </div>
+                <div class="decor-content">
+                    <p>Blow up your house with a choice!</p>
+                    <p>Sofas and furniture are household items that can be found in every house and are very important.</p>
+                    <div class="read-btn">
+                        <div>READ MORE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decor" id="1">
+                <div class="decor-img">
+                    <img src="../src/img/home/decor-2.jpg" alt="decor example">
+                </div>
+                <div class="decor-content">
+                    <p>Blow up your house with a choice!</p>
+                    <p>Sofas and furniture are household items that can be found in every house and are very important.</p>
+                    <div class="read-btn">
+                        <div>READ MORE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decor" id="2">
+                <div class="decor-img">
+                    <img src="../src/img/home/decor-3.jpg" alt="decor example">
+                </div>
+                <div class="decor-content">
+                    <p>Blow up your house with a choice!</p>
+                    <p>Sofas and furniture are household items that can be found in every house and are very important.</p>
+                    <div class="read-btn">
+                        <div>READ MORE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decor" id="3">
+                <div class="decor-img">
+                    <img src="../src/img/home/decor-4.jpg" alt="decor example">
+                </div>
+                <div class="decor-content">
+                    <p>Blow up your house with a choice!</p>
+                    <p>Sofas and furniture are household items that can be found in every house and are very important.</p>
+                    <div class="read-btn">
+                        <div>READ MORE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swipers">
+            <div class="swiper-decor active" id="0"></div>
+            <div class="swiper-decor" id="1"></div>
+            <div class="swiper-decor" id="2"></div>
+            <div class="swiper-decor" id="3"></div>
+        </div>
+
+        <div class="statue-bar">
+            <div class="statue">
+                <span style="--i:1">D</span>
+                <span style="--i:2">E</span>
+                <span style="--i:3">C</span>
+                <span style="--i:4">O</span>
+                <span style="--i:5">R</span> <br>
+                <span style="--i:6">H</span>
+                <span style="--i:7">O</span>
+                <span style="--i:8">U</span>
+                <span style="--i:9">S</span>
+                <span style="--i:10">E</span>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="exam">
+                <img src="../src/img/home/exam-1.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exam">
+                <img src="../src/img/home/exam-2.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exam">
+                <img src="../src/img/home/exam-3.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exam">
+                <img src="../src/img/home/exam-4.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exam">
+                <img src="../src/img/home/exam-5.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exam">
+                <img src="../src/img/home/exam-6.jpg" alt="work-exam">
+                <div class="exam-content">
+                    <div class="name-price">
+                        <p id="name">Sofa Name</p>
+                        <del id="discount-price">100.00$</del>
+                        <p id="price">75.00$</p>
+                    </div>
+                    <div class="buy-now">
+                        <p>buy now</p>
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-list">
+            <li>Shop</li>
+            <li>Chair</li>
+            <li>Sofa</li>
+            <li>Bed</li>
+            <li>Table</li>
+            <li>Console</li>
+        </div>
+
+        <div class="footer-list">
+            <li>Info</li>
+            <li>Formats</li>
+            <li>Compression</li>
+            <li>Pricing</li>
+            <li>FAQ</li>
+            <li>Status</li>
+        </div>
+
+        <div class="footer-list">
+            <li>Resource</li>
+            <li>ALI</li>
+            <li>Forms</li>
+            <li>Accessibility</li>
+            <li>Market</li>
+            <li>Community</li>
+        </div>
+
+        <div class="footer-about">
+            <p>News</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia iure blanditiis obcaecati nihil rem sequi quos.</p>
+
+            <div class="connections">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                <span class="material-symbols-outlined">
+                    language
+                </span>
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+                <span class="material-symbols-outlined">
+                    location_on
+                </span>
+            </div>
+        </div>
+
+        <div class="footer-login">
+            <input type="text" name="login-input" value="Your Email">
+            <a href="../vendor/login.html" target="_blank"><input type="submit" value="SUBSCRIBE"></a>
+        </div>
+    </footer>
+    
+    <script src="../src/js/public.js"></script>
+    <script src="../src/js/home.js"></script>
+</body>
+</html>
