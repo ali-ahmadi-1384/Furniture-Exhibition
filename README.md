@@ -1,4 +1,4 @@
-## Furniture Exhibition (static web site)
+## __[Furniture Exhibition](https://ali-ahmadi-1384.github.io/Furniture-Exhibition/)__ (static web site)
 #### This is a static site for displaying products and decors etc. of a furniture exhibition.
 #### HTML, CSS and JS files are used in this mini project.
 
